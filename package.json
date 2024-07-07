@@ -1,0 +1,20 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AliSuliman01/store.git",
+  "author": "AliSuliman <ali.sliman@ramaaz.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev":"nodemon src/index.ts",
+    "build":"tsc",
+    "start":"yarn build && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2"
+  }
+}
